@@ -1,45 +1,44 @@
 
 **\[UDD] Desarrollo Web Fullstack C13**
 
-# Proyecto 04: Reservas Hoteleras {ignore=true}
+<!-- TOC ignore:true -->
+# Proyecto 04: Reservas Hoteleras
 
-## Tabla de Contenidos {ignore=true}
+## Tabla de Contenidos 
 
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+<!-- TOC -->
 
-<!-- code_chunk_output -->
+    - [Tabla de Contenidos](#tabla-de-contenidos)
+    - [Descripción](#descripci%C3%B3n)
+    - [Desarrollo](#desarrollo)
+        - [creación json y herramientas](#creaci%C3%B3n-json-y-herramientas)
+        - [Arquitectura de carpetas](#arquitectura-de-carpetas)
+        - [Descripción archivos](#descripci%C3%B3n-archivos)
+    - [Conclusión](#conclusi%C3%B3n)
+    - [Referencias](#referencias)
 
-- [1. Descripción](#1-descripción)
-- [2. Desarrollo](#2-desarrollo)
-  - [2.1 creación json y herramientas](#21-creación-json-y-herramientas)
-  - [2.2 Arquitectura de carpetas](#22-arquitectura-de-carpetas)
-  - [2.3 Descripción archivos](#23-descripción-archivos)
-- [3. Conclusión](#3-conclusión)
-- [4. Referencias](#4-referencias)
-
-<!-- /code_chunk_output -->
-
+<!-- /TOC -->
 
 
-## 1. Descripción
+## Descripción
 
-## 2. Desarrollo
+## Desarrollo
 
-### 2.1 creación json y herramientas
+### creación json y herramientas
 
 Se realizan las siguientes instrucciones en la terminal
 
-```shell
+```sh
 npm init -y
 npm i -D nodemon
 npm i express dotenv axios moment
 ```
 
-### 2.2 Arquitectura de carpetas
+### Arquitectura de carpetas
 
 (agregar diagrama usando tree command)
 
-### 2.3 Descripción archivos
+### Descripción archivos
 
 `guestRoutes.js`
 : Rutas correspondientes a los huéspedes del hotel.
@@ -53,8 +52,9 @@ npm i express dotenv axios moment
 `travelerRoutes.js`
 : Rutas correspondientes al viajero.
 
-## 3. Conclusión
+## Conclusión
 
-## 4. Referencias
-- UDD BootCamp Web FullStack, clases 09 a 12, profesor [Matías Molina Aguilar ](https://cl.linkedin.com/in/matiasmolinaaguilar){target="_blank"}
-- Youtube@TheCoderCaveEsp: [¿Qué es MVC? - Aprende MVC en 10 minutos!](https://www.youtube.com/watch?v=UU8AKk8Slqg){target="_blank"}
+## Referencias
+- UDD BootCamp Web FullStack, clases 13 a 16, Profesor [Matías Molina Aguilar ](https://cl.linkedin.com/in/matiasmolinaaguilar)
+- Youtube@TheCoderCaveEsp: [¿Qué es MVC? - Aprende MVC en 10 minutos!](https://www.youtube.com/watch?v=UU8AKk8Slqg)
+- Youtube@PedroTech: [MVC Pattern Explained Easy | MVC Tutorial (Example in NodeJS)](https://www.youtube.com/watch?v=bQuBlR0T5cc)
